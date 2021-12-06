@@ -8,6 +8,7 @@
 }
 
 <h2>WebGrid</h2>
+<h3>change1</h3>
 
 <link href="https://code.jquery.com/ui/1.12.0-rc.2/themes/smoothness/jquery-ui.css" rel="stylesheet" />
 <br />
@@ -23,7 +24,7 @@
     grid.Column("Address", "Address"),
     grid.Column("Phone", "Phone"),
     grid.Column("Email", "Email"),
-    grid.Column(header: "Action",format: @<text><a data-value='@item.Id' href='javascript:void(0)' class='btnEdit'>Edit</a></text>)
+    grid.Column(header: "Action", format: @<text><a data-value='@item.Id' href='javascript:void(0)' class='btnEdit'>Edit</a></text>)
 ))
 
 <div id="dialog" title="edit view" style="overflow: hidden;"></div>
